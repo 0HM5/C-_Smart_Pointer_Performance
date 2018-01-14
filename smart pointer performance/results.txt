@@ -1,0 +1,7 @@
+Time for initialising and deleting 1000000000 normal pointer: 101.948s
+Time for initialising and deleting 1000000000 unique pointer: 130.39s
+Time for initialising and deleting 1000000000 unique pointer using make_unique: 131.642s
+Time for initialising and deleting 1000000000 shared pointer: 241.069s
+Time for initialising and deleting 1000000000 shared pointer using make_shared: 240.4s
+
+RUN SUCCESSFUL (total time: 14m 5s)
