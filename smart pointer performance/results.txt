@@ -25,3 +25,45 @@ Time for reading and writing to and from a unique_ptr pointer 1000000000 times: 
 Time for reading and writing to and from a shared_ptr pointer 1000000000 times: 3.479s
 
 RUN SUCCESSFUL (total time: 14m 33s)
+
+
+
+
+# 10^8
+#g++ Optimierungsstufe: 2
+
+# Test 1
+Time for initialising and deleting 100000000 normal pointer: 2.86892s
+Time for initialising and deleting 100000000 unique pointer: 2.8957s
+Time for initialising and deleting 100000000 unique pointer using make_unique: 2.91175s
+Time for initialising and deleting 100000000 shared pointer: 5.98556s
+Time for initialising and deleting 100000000 shared pointer using make_shared: 2.96546s
+
+Time for reading and writing to and from a normal pointer 100000000 times: 0.227122s
+Time for reading and writing to and from a unique_ptr pointer 100000000 times: 0.215431s
+Time for reading and writing to and from a shared_ptr pointer 100000000 times: 0.228081s
+
+
+# Test 2
+Time for initialising and deleting 100000000 normal pointer: 2.90822s
+Time for initialising and deleting 100000000 unique pointer: 2.90142s
+Time for initialising and deleting 100000000 unique pointer using make_unique: 2.90956s
+Time for initialising and deleting 100000000 shared pointer: 6.05013s
+Time for initialising and deleting 100000000 shared pointer using make_shared: 2.96273s
+
+Time for reading and writing to and from a normal pointer 100000000 times: 0.252788s
+Time for reading and writing to and from a unique_ptr pointer 100000000 times: 0.254999s
+Time for reading and writing to and from a shared_ptr pointer 100000000 times: 0.251307s
+
+
+# Test 3
+Time for initialising and deleting 100000000 normal pointer: 2.9006s
+Time for initialising and deleting 100000000 unique pointer: 2.90991s
+Time for initialising and deleting 100000000 unique pointer using make_unique: 2.9504s
+Time for initialising and deleting 100000000 shared pointer: 5.91959s
+Time for initialising and deleting 100000000 shared pointer using make_shared: 2.9308s
+
+Time for reading and writing to and from a normal pointer 100000000 times: 0.222998s
+Time for reading and writing to and from a unique_ptr pointer 100000000 times: 0.251141s
+Time for reading and writing to and from a shared_ptr pointer 100000000 times: 0.251082s
+
