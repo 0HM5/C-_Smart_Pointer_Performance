@@ -61,8 +61,7 @@ void use_shared(shared_ptr<long>& ptr, const long& numInt) {
 }
 
 int main() {
-
-    const long long numInt = pow(10, 9);
+    const long long numInt = pow(10, 7);
 
     auto start = chrono::system_clock::now();
 

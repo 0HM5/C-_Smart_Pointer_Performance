@@ -1,3 +1,5 @@
+keine Optimierung
+
 10^9
 
 Time for initialising and deleting 1000000000 normal pointer: 101.948s
