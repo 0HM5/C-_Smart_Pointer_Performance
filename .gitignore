@@ -34,9 +34,9 @@
 
 
 # additional
-smart pointer performance/nbproject/private/*
-smart pointer performance/build/*
-smart pointer performance/nbbuild/*
-smart pointer performance/dist/*
-smart pointer performance/nbdist/*
+/nbproject/*
+/build/*
+/nbbuild/*
+/dist/*
+/nbdist/*
 .nb-gradle/*
